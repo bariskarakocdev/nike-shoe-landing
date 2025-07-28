@@ -13,11 +13,16 @@ This project is a responsive landing page design created for the Nike brand usin
 - Flexbox & Grid Layouts
 - Responsive Media Queries
 
-## 📷 Screenshot
+## 📱 Responsive Tasarım Görselleri
 
-![Screenshot](./images/screenshot.png)
+### 🖥️ Masaüstü Görünüm
+![desktop](./screenshots/desktop.png)
 
-> Make sure the path to the image is correct, or remove this section if not needed.
+### 📱 Mobil Görünüm
+![mobile](./screenshots/mobile.png)
+
+### 📲 Tablet Görünüm
+![tablet](./screenshots/tablet.png)
 
 ## 📁 Project Structure
 
