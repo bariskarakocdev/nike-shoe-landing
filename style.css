@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:white;
+
+}
+body{
+    background-color: black;
+    
+}
+header{
+    height: 125px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons i{
+    font-size: 25px;
+    margin-left:8px;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+
+/*MAİN START*/
+
+main{
+    display:flex;
+    padding-left:8%;
+
+
+}
+/*left-content START*/
+.left-content{
+    width:46%;
+    margin-top:42px;
+    padding-right:40px;
+}
+.left-content h1{
+    font-size:74px;
+    line-height:1.3;
+}
+.left-content p{
+    font-size:16px;
+    margin-top: 10px;
+}
+
+
+span.now{
+    font-size:25px;
+    font-weight: bold;
+       
+}
+span.previous{
+    font-size:16px;
+    margin-left:7px;
+  
+}
+
+.buttons button{
+    margin-top: 14px;
+    background-color: red;
+    color:white;
+    font-size: 18px;
+    padding:20px 50px;
+    transition:all 1s ease;
+    
+}
+.buttons button:hover{
+    cursor:pointer;
+    text-decoration: none;
+    background-color:rgba(255,0,0,0.6);
+    color:white;
+    transform:translateY(-8px);
+    
+}
+/*left-content END  */
+/*RİGHT-content START  */
+
+
+.right-content{
+    background-color: red;
+    width:54%;
+    position: relative;
+    height:calc(100vh - 125px);
+     
+}
+
+.right-main-content img{
+    width:620px;
+     
+    
+}
+.right-main-content{
+    display:flex;
+    justify-content: center;
+    margin-top:70px;
+}
+main img{
+    transform: rotate(-20deg);
+    
+    transition: all .5s ease;
+}
+header a img{
+    transform:rotate(0deg);
+}
+
+main .small-images img:hover{
+    transform:rotate(0deg) translate(-23px,10px) ;
+  
+}
+.right-main-content img:hover{
+    transform:rotate(0deg);
+}
+
+.small-images{
+    display:flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:75px auto;   
+
+}
+.small-images img{
+    width:120px;
+    position:absolute;
+    right: -44px;
+    bottom: 18px;
+
+}
+
+.small-image-back {
+    
+    width:78px;
+    height:78px;
+    position:relative;
+
+}
+
+.small-image-back.image1{
+    
+    background-color: #B9C8FF;
+}
+
+.small-image-back.image2{
+
+    background-color: #B1FFDD;
+}
+
+.small-image-back.image3{
+    
+    background-color: #FF6767;
+}
+
+.small-image-back.image4{
+   
+    background-color:#9DFF90;
+}
+/*left-content END  */
+/*MAİN  END  */
+
+                                /*RESPONSİVE START  */
+@media (max-width:1260px){
+
+    .small-images{
+    column-gap: 50px;
+}
+}
+@media (max-width:1080px){
+    html{
+        font-size:12px;
+    }
+
+    main{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    }
+
+    .bottom-content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+        row-gap:30px;
+    }
+
+    .buttons button{
+        margin:auto;
+        width: 100%;
+    }
+
+    .right-content{
+    width:94%;
+    justify-content: flex-start;
+    margin-top:20px;
+}
+
+    .left-content{
+    width:94%;
+    display:flex;
+    flex-basis: 50%;
+    gap:30px;
+    padding-left:0;
+    }
+    .left-content p{
+        width:400px;
+    }
+}
+@media (max-width:980px){
+    .left-content{
+       flex-wrap: wrap;
+    }
+    .top-content{
+        display:flex;
+    }
+    .bottom-content{display:flex;
+    margin:auto;
+align-items: center;}
+    .buttons{
+        margin:30px 30px 40px 70px;
+    }
+
+}
+@media (max-width:800px){
+
+    .bottom-content, .buttons,.top-content{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        margin:20px auto;
+
+    }
+
+    .right-content{
+        margin-top:50px;
+    }
+    main{
+        padding-left:12%;
+        padding-right:12%;
+
+    }
+    h1,p{
+        text-align: center;
+    }
+    
+}
+@media (max-width:600px){
+    .right-content .right-main-content img{
+        width:80%;
+    }
+    .buttons button {
+        text-align: center;
+        margin:6px auto;
+        width:100%
+    }
+}
+                                /*RESPONSİVE END*/
