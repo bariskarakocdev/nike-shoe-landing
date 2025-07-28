@@ -4,7 +4,7 @@ This project is a responsive landing page design created for the Nike brand usin
 
 ## 🖥️ Live Demo
 
-🔗 View Site:(https://bariskarakocdev.github.io/nike-landing-page/)
+🔗 View Site:(https://bariskarakocdev.github.io/nike-shoe-landing/)
 
 ## 💻 Technologies Used
 
