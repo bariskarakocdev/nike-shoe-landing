@@ -31,10 +31,8 @@ nike-landing-page/
 ├── screenshots/
 ├── LICENSE
 ├── README.md
-├── index.html
-├── style.css
-
-└── README.md
+├── index.html  
+└── style.css
 
 
 ## 📝 License
