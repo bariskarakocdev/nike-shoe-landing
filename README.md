@@ -27,10 +27,13 @@ This project is a responsive landing page design created for the Nike brand usin
 ## 📁 Project Structure
 
 nike-landing-page/
+├── images/
+├── screenshots/
+├── LICENSE
+├── README.md
 ├── index.html
 ├── style.css
-├── images/
-├── LICENSE
+
 └── README.md
 
 
